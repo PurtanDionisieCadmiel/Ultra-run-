@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UltraRun</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h1>UltraRun</h1>
+    <nav>
+        <a href="#home">Acasă</a>
+        <a href="#types">Tipuri</a>
+        <a href="#stats">Statistici</a>
+        <a href="my-stats/my-stats.html">Statisticile mele</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero" style="background: url('images/hero.jpg') center/cover no-repeat;">
+    <div class="overlay"></div>
+    <div class="hero-text">
+        <h2>Depășește-ți limitele</h2>
+        <p id="quote">"Durerea este temporară. Renunțarea este permanentă."</p>
+        <button onclick="scrollToSection('types')">Explorează</button>
+    </div>
+</section>
+
+<!-- TIPURI ULTRA -->
+<section id="types">
+    <h2>Tipuri de ultra</h2>
+    <div class="cards">
+        <a href="pages/50km.html" class="card fade-in">
+            <h3>50 km</h3>
+            <p>Primul nivel ultra</p>
+        </a>
+        <a href="pages/100km.html" class="card fade-in">
+            <h3>100 km</h3>
+            <p>Test extrem</p>
+        </a>
+        <a href="pages/trail.html" class="card fade-in">
+            <h3>Trail Ultra</h3>
+            <p>Munți și natură</p>
+        </a>
+        <a href="pages/backyard.html" class="card fade-in">
+            <h3>Backyard</h3>
+            <p>Ultimul care rezistă</p>
+        </a>
+    </div>
+</section>
+
+<!-- STATISTICI ULTRA -->
+<section id="stats" class="fade-in">
+    <h2>Statistici Ultra Running</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>50+ km</h3>
+            <p>Distanța minimă ultra</p>
+        </div>
+        <div class="card">
+            <h3>100 km</h3>
+            <p>Cea mai populară cursă</p>
+        </div>
+        <div class="card">
+            <h3>24h</h3>
+            <p>Ultra pe timp</p>
+        </div>
+        <div class="card">
+            <h3>160 km</h3>
+            <p>100 mile – clasic</p>
+        </div>
+    </div>
+</section>
+
+<!-- STATISTICILE MELE -->
+ <section id="my-stats" class="fade-in">
+    <h2>Statisticile mele</h2>
+    <div class="cards">
+        <a href="my stats/my-stats.html" class="card fade-in">
+            <h3>Vezi toate statisticile mele</h3>
+            <p>Urmărește progresul și competițiile</p>
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 UltraRun | Proiect atestat</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
